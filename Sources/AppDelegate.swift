@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SpalahBook_9.2
+//  spalahbook
 //
-//  Created by Nugumanov on 31.07.18.
-//  Copyright © 2018 Nugumanov Dima. All rights reserved.
+//  Created by Michael on 7/12/18.
+//  Copyright © 2018 Mission Edition. All rights reserved.
 //
 
 import UIKit
@@ -12,12 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // TODO: example
+        self.window = MainScreen().start()
+        
         return true
     }
-
 }
-
