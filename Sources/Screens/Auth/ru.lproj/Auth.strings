@@ -1,0 +1,33 @@
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "0SB-QA-Sn2"; */
+"0SB-QA-Sn2.placeholder" = "email";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "2mS-Iu-fCX"; */
+"2mS-Iu-fCX.placeholder" = "password";
+
+/* Class = "UIButton"; normalTitle = "I don't have an account"; ObjectID = "6wR-Pg-FCE"; */
+"6wR-Pg-FCE.normalTitle" = "I don't have an account";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "OJO-5e-QoH"; */
+"OJO-5e-QoH.normalTitle" = "LOGIN";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "Qsy-Nq-Y7a"; */
+"Qsy-Nq-Y7a.placeholder" = "password";
+
+/* Class = "UITextView"; text = "I am greate person!"; ObjectID = "R76-F2-twt"; */
+"R76-F2-twt.text" = "I am greate person!";
+
+/* Class = "UIButton"; normalTitle = "REGISTER"; ObjectID = "e4n-WF-XAn"; */
+"e4n-WF-XAn.normalTitle" = "REGISTER";
+
+/* Class = "UITextField"; placeholder = "name"; ObjectID = "l1H-PC-IIy"; */
+"l1H-PC-IIy.placeholder" = "name";
+
+/* Class = "UILabel"; text = "Hello there!"; ObjectID = "m3S-lz-lvm"; */
+"m3S-lz-lvm.text" = "Hello there!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tmi-s7-eZm"; */
+"tmi-s7-eZm.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "xiP-9r-ZFK"; */
+"xiP-9r-ZFK.placeholder" = "email";

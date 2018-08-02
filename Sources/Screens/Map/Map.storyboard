@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="exn-GT-IoU">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" id="m5r-tf-IJT" customClass="MapViewController" customModule="spalahbook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T3Y-us-3aW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qAd-ey-pJw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="delegate" destination="m5r-tf-IJT" id="PGh-E1-ab3"/>
+                                    <outletCollection property="gestureRecognizers" destination="HNM-K9-vxa" appends="YES" id="5qB-b9-Esy"/>
+                                </connections>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT8-Tt-v36">
+                                <rect key="frame" x="322" y="617" width="33" height="30"/>
+                                <state key="normal" title="User"/>
+                                <connections>
+                                    <action selector="onLocationButtonClick:" destination="m5r-tf-IJT" eventType="touchUpInside" id="Tnq-5z-mtv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmq-vF-1BJ">
+                                <rect key="frame" x="161" y="609" width="54" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="POST"/>
+                                <connections>
+                                    <action selector="onPostClick:" destination="m5r-tf-IJT" eventType="touchUpInside" id="AFX-zt-le9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xmq-vF-1BJ" firstAttribute="centerX" secondItem="T3Y-us-3aW" secondAttribute="centerX" id="24l-6v-dYE"/>
+                            <constraint firstItem="qAd-ey-pJw" firstAttribute="leading" secondItem="Mxc-NT-iqm" secondAttribute="leading" id="8eP-pV-c34"/>
+                            <constraint firstItem="Mxc-NT-iqm" firstAttribute="bottom" secondItem="vT8-Tt-v36" secondAttribute="bottom" constant="20" id="BAk-uw-Glb"/>
+                            <constraint firstItem="Mxc-NT-iqm" firstAttribute="trailing" secondItem="qAd-ey-pJw" secondAttribute="trailing" id="QS1-Pc-WZW"/>
+                            <constraint firstItem="Mxc-NT-iqm" firstAttribute="bottom" secondItem="Xmq-vF-1BJ" secondAttribute="bottom" constant="20" id="XEV-Yu-P1o"/>
+                            <constraint firstItem="qAd-ey-pJw" firstAttribute="top" secondItem="Mxc-NT-iqm" secondAttribute="top" id="ZdV-IH-grY"/>
+                            <constraint firstItem="Mxc-NT-iqm" firstAttribute="trailing" secondItem="vT8-Tt-v36" secondAttribute="trailing" constant="20" id="kdp-Hh-qVh"/>
+                            <constraint firstItem="Mxc-NT-iqm" firstAttribute="bottom" secondItem="qAd-ey-pJw" secondAttribute="bottom" id="rkZ-be-rhg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mxc-NT-iqm"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="qAd-ey-pJw" id="Jq5-dv-BPE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJj-0w-WCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HNM-K9-vxa">
+                    <connections>
+                        <action selector="onMapTap:" destination="m5r-tf-IJT" id="ZuK-Ab-8n6"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-406" y="124"/>
+        </scene>
+    </scenes>
+</document>

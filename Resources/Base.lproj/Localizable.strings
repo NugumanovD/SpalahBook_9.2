@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  spalahbook
+
+  Created by Michael on 7/24/18.
+  Copyright © 2018 Mission Edition. All rights reserved.
+*/
+
+"general.warning" = "Warning";
+"general.error" = "Error";
+
+"auth.greating" = "Hello there!";
+"auth.login" = "Login";
+"auth.register" = "Register";
