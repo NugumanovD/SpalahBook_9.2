@@ -8,7 +8,9 @@
 
 "general.warning" = "Внимание";
 "general.error" = "Ошибка";
+"general.ok" = "OK";
 
 "auth.greating" = "Привет!";
 "auth.login" = "Логин";
 "auth.register" = "Регистрация";
+"map.unableToFindUser" = "Unable To Find User";

@@ -41,11 +41,11 @@
 		4C358F952110879B00964C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C358F6E2110879B00964C2D /* LaunchScreen.storyboard */; };
 		4C358F962110879B00964C2D /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C358F712110879B00964C2D /* LaunchScreen.strings */; };
 		7B3E1A0B2113146400721010 /* WallBatchLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E1A0A2113146400721010 /* WallBatchLoader.swift */; };
-		7B3E1A0E211314CA00721010 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E1A0C211314C900721010 /* UIViewController.swift */; };
-		7B3E1A0F211314CA00721010 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E1A0D211314CA00721010 /* MapView.swift */; };
-		7B3E1A13211314FD00721010 /* MainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E1A11211314FD00721010 /* MainHeaderView.swift */; };
-		7B3E1A14211314FD00721010 /* MapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E1A12211314FD00721010 /* MapCell.swift */; };
-		7B3E1A162113155A00721010 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E1A152113155A00721010 /* R.generated.swift */; };
+		7BB120542113848500E6EAED /* MainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB120522113848500E6EAED /* MainHeaderView.swift */; };
+		7BB120552113848500E6EAED /* MapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB120532113848500E6EAED /* MapCell.swift */; };
+		7BB12058211384B500E6EAED /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB12056211384B500E6EAED /* UIViewController.swift */; };
+		7BB12059211384B500E6EAED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB12057211384B500E6EAED /* MapView.swift */; };
+		7BB1205B211384E700E6EAED /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1205A211384E700E6EAED /* R.generated.swift */; };
 		FC6FAEEA0B05C2CA3118BD30 /* Pods_spalahbook_SpalahBook_9_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C994D8AD0B1DBF0E4BFB0EA3 /* Pods_spalahbook_SpalahBook_9_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,12 +89,12 @@
 		4C358F9C211088A900964C2D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C358FA02110890F00964C2D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		7B3E1A0A2113146400721010 /* WallBatchLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallBatchLoader.swift; sourceTree = "<group>"; };
-		7B3E1A0C211314C900721010 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = "../../../../spalahswiftteam-spalahbook-a13074b94f68/ios/Sources/Utitlities/Extension/UIViewController.swift"; sourceTree = "<group>"; };
-		7B3E1A0D211314CA00721010 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = "../../../../spalahswiftteam-spalahbook-a13074b94f68/ios/Sources/Utitlities/Extension/MapView.swift"; sourceTree = "<group>"; };
-		7B3E1A11211314FD00721010 /* MainHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHeaderView.swift; sourceTree = "<group>"; };
-		7B3E1A12211314FD00721010 /* MapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCell.swift; sourceTree = "<group>"; };
-		7B3E1A152113155A00721010 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = "../../spalahswiftteam-spalahbook-a13074b94f68/ios/Resources/R.generated.swift"; sourceTree = "<group>"; };
 		7BA104C8211075220071FB43 /* SpalahBook_9.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpalahBook_9.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB120522113848500E6EAED /* MainHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHeaderView.swift; sourceTree = "<group>"; };
+		7BB120532113848500E6EAED /* MapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCell.swift; sourceTree = "<group>"; };
+		7BB12056211384B500E6EAED /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		7BB12057211384B500E6EAED /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7BB1205A211384E700E6EAED /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		C994D8AD0B1DBF0E4BFB0EA3 /* Pods_spalahbook_SpalahBook_9_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spalahbook_SpalahBook_9_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1791615AFA9EEF605E51232 /* Pods-spalahbook-SpalahBook_9.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spalahbook-SpalahBook_9.2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spalahbook-SpalahBook_9.2/Pods-spalahbook-SpalahBook_9.2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,7 +199,7 @@
 		4C358F582110879B00964C2D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				7B3E1A10211314FD00721010 /* Components */,
+				7BB120512113848500E6EAED /* Components */,
 				4C358F592110879B00964C2D /* MainViewController.swift */,
 				4C358F5A2110879B00964C2D /* MainPresenter.swift */,
 				4C358F5B2110879B00964C2D /* Main.storyboard */,
@@ -220,9 +220,9 @@
 		4C358F5E2110879B00964C2D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7BB12057211384B500E6EAED /* MapView.swift */,
+				7BB12056211384B500E6EAED /* UIViewController.swift */,
 				4C358F5F2110879B00964C2D /* Data.swift */,
-				7B3E1A0D211314CA00721010 /* MapView.swift */,
-				7B3E1A0C211314C900721010 /* UIViewController.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -244,10 +244,10 @@
 			isa = PBXGroup;
 			children = (
 				4C358F9C211088A900964C2D /* Info.plist */,
+				7BB1205A211384E700E6EAED /* R.generated.swift */,
 				4C358F682110879B00964C2D /* Localizable.strings */,
 				4C358F6D2110879B00964C2D /* Assets.xcassets */,
 				4C358F6E2110879B00964C2D /* LaunchScreen.storyboard */,
-				7B3E1A152113155A00721010 /* R.generated.swift */,
 				4C358F712110879B00964C2D /* LaunchScreen.strings */,
 			);
 			path = Resources;
@@ -269,16 +269,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7B3E1A10211314FD00721010 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				7B3E1A11211314FD00721010 /* MainHeaderView.swift */,
-				7B3E1A12211314FD00721010 /* MapCell.swift */,
-			);
-			name = Components;
-			path = "../../../../spalahswiftteam-spalahbook-a13074b94f68/ios/Sources/Screens/Main/Components";
-			sourceTree = "<group>";
-		};
 		7BA104BF211075220071FB43 = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +287,15 @@
 				7BA104C8211075220071FB43 /* SpalahBook_9.2.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB120512113848500E6EAED /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7BB120522113848500E6EAED /* MainHeaderView.swift */,
+				7BB120532113848500E6EAED /* MapCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		F596384D9FC8091D8D6ABDF8 /* Pods */ = {
@@ -462,7 +461,7 @@
 			files = (
 				4C358F822110879B00964C2D /* LoginPresenter.swift in Sources */,
 				4C358F842110879B00964C2D /* MapPresenter.swift in Sources */,
-				7B3E1A162113155A00721010 /* R.generated.swift in Sources */,
+				7BB1205B211384E700E6EAED /* R.generated.swift in Sources */,
 				4C358F882110879B00964C2D /* MainPresenter.swift in Sources */,
 				4C358F7E2110879B00964C2D /* RegisterViewController.swift in Sources */,
 				4C358F7A2110879B00964C2D /* ServiceError.swift in Sources */,
@@ -470,20 +469,20 @@
 				4C358F8A2110879B00964C2D /* MainScreen.swift in Sources */,
 				4C358F762110879B00964C2D /* Location.swift in Sources */,
 				4C358F8C2110879B00964C2D /* Common.swift in Sources */,
+				7BB12059211384B500E6EAED /* MapView.swift in Sources */,
+				7BB120542113848500E6EAED /* MainHeaderView.swift in Sources */,
 				4C358F752110879B00964C2D /* Config.swift in Sources */,
-				7B3E1A13211314FD00721010 /* MainHeaderView.swift in Sources */,
 				4C358F872110879B00964C2D /* MainViewController.swift in Sources */,
 				4C358F8E2110879B00964C2D /* WallService.swift in Sources */,
+				7BB12058211384B500E6EAED /* UIViewController.swift in Sources */,
 				4C358F8F2110879B00964C2D /* GeoService.swift in Sources */,
 				4C358F792110879B00964C2D /* UserAnnotation.swift in Sources */,
-				7B3E1A0F211314CA00721010 /* MapView.swift in Sources */,
-				7B3E1A0E211314CA00721010 /* UIViewController.swift in Sources */,
 				4C358F772110879B00964C2D /* Auth.swift in Sources */,
 				4C358F902110879B00964C2D /* AuthService.swift in Sources */,
 				4C358F7B2110879B00964C2D /* ErrorDict.swift in Sources */,
 				4C358F912110879B00964C2D /* LocationService.swift in Sources */,
 				4C358F782110879B00964C2D /* Place.swift in Sources */,
-				7B3E1A14211314FD00721010 /* MapCell.swift in Sources */,
+				7BB120552113848500E6EAED /* MapCell.swift in Sources */,
 				7B3E1A0B2113146400721010 /* WallBatchLoader.swift in Sources */,
 				4C358F7D2110879B00964C2D /* RegisterPresenter.swift in Sources */,
 				4C358F802110879B00964C2D /* AuthScreen.swift in Sources */,
@@ -654,6 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nugumanov.PlayGround.SpalahBook-9-2";
@@ -669,6 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nugumanov.PlayGround.SpalahBook-9-2";

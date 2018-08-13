@@ -222,7 +222,7 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This `R.string.localizable` struct is generated, and contains static references to 5 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 7 localization keys.
     struct localizable {
       /// Base translation: Error
       /// 
@@ -236,10 +236,18 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: Base, ru
       static let authLogin = Rswift.StringResource(key: "auth.login", tableName: "Localizable", bundle: R.hostingBundle, locales: ["Base", "ru"], comment: nil)
+      /// Base translation: OK
+      /// 
+      /// Locales: Base, ru
+      static let generalOk = Rswift.StringResource(key: "general.ok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["Base", "ru"], comment: nil)
       /// Base translation: Register
       /// 
       /// Locales: Base, ru
       static let authRegister = Rswift.StringResource(key: "auth.register", tableName: "Localizable", bundle: R.hostingBundle, locales: ["Base", "ru"], comment: nil)
+      /// Base translation: Unable To Find User
+      /// 
+      /// Locales: Base, ru
+      static let mapUnableToFindUser = Rswift.StringResource(key: "map.unableToFindUser", tableName: "Localizable", bundle: R.hostingBundle, locales: ["Base", "ru"], comment: nil)
       /// Base translation: Warning
       /// 
       /// Locales: Base, ru
@@ -266,11 +274,25 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("auth.login", bundle: R.hostingBundle, value: "Login", comment: "")
       }
       
+      /// Base translation: OK
+      /// 
+      /// Locales: Base, ru
+      static func generalOk(_: Void = ()) -> String {
+        return NSLocalizedString("general.ok", bundle: R.hostingBundle, value: "OK", comment: "")
+      }
+      
       /// Base translation: Register
       /// 
       /// Locales: Base, ru
       static func authRegister(_: Void = ()) -> String {
         return NSLocalizedString("auth.register", bundle: R.hostingBundle, value: "Register", comment: "")
+      }
+      
+      /// Base translation: Unable To Find User
+      /// 
+      /// Locales: Base, ru
+      static func mapUnableToFindUser(_: Void = ()) -> String {
+        return NSLocalizedString("map.unableToFindUser", bundle: R.hostingBundle, value: "Unable To Find User", comment: "")
       }
       
       /// Base translation: Warning

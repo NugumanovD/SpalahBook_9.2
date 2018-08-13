@@ -8,7 +8,9 @@
 
 "general.warning" = "Warning";
 "general.error" = "Error";
+"general.ok" = "OK";
 
 "auth.greating" = "Hello there!";
 "auth.login" = "Login";
 "auth.register" = "Register";
+"map.unableToFindUser" = "Unable To Find User";
